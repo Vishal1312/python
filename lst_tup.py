@@ -1,0 +1,6 @@
+values = input("Enter the values separated by ',' : ")
+x = values.split(",")
+l = list(x)
+t = tuple(x)
+print(l)
+print(t)
